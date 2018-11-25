@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Signin from '@/components/Signin/Signin.vue'
+import SignIn from '@/components/SignIn/SignIn.vue'
 import Summary from '@/components/Summary/Summary.vue'
 
 Vue.use(Router)
@@ -15,7 +15,7 @@ export default new Router({
     {
       path: '/signin',
       name: 'SignIn',
-      component: Signin
+      component: SignIn
     },
     {
       path: '/summary',
